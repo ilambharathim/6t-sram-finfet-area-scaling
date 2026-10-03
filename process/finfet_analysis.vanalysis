@@ -1,0 +1,87 @@
+
+<___Document DocApp="SEMulator3D" DocBuildTag="" DocType="vanalysis" DocVersion="13.1.0.0">
+
+  <___Properties isEnable="true">
+    <masterPassword ___text=""/>
+    <filePassword ___text="" readonly="true"/>
+    <fileAccessRestriction ___text="" readonly="true"/>
+    <processFile RelativeFileName="./FinFET.vproc" ___text="F:/Sram/FinFET.vproc"/>
+  </___Properties>
+
+  <___CustomConfiguration/>
+
+  <___Parser UUID="378fc91f-5cc3-40f0-872a-c4366e23e3f2" ___Name="Variables" ___Type="VariableRoot">
+    <___Item Automatic="true" UUID="d57ffcae-4063-4a68-9cae-cb5461359888" ___Name="Auto" ___Type="VariableGroup">
+      <___Item Automatic="true" UUID="55018e70-2c31-4e79-9e2b-c9ec61622fee" ___Name="ModelResolution" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+    </___Item>
+  </___Parser>
+
+  <___DocumentTree UUID="819b8e87-a42a-48b7-a480-08bb24f34f9d" ___Name="Analysis Root" ___Type="AnalysisRoot">
+    <___Properties isEnable="true">
+      <stepName ___text=""/>
+      <stepAction ___text="" readonly="true"/>
+      <skipMask isEnable="false" showHeader="true">
+        <name ___text="" readonly="true"/>
+      </skipMask>
+      <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      <uiProcessStepSpacer ___text="" extraSpace="true"/>
+    </___Properties>
+    <___Item UUID="c5ddbf97-4230-48a2-b2da-b5724886de88" ___Name="Measurement2" ___Type="Measurement">
+      <___Properties isEnable="true">
+        <stepName ___text="Measurement (Requires Automation)"/>
+        <stepAction ___text="Measurement" icon=":/icons/Measurement" readonly="true" stepType="Measurement"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <runAfterStep UUID="6bb1343b-6909-4211-b1c7-6078f182794c" ___text="4.3.11.5: Cu CMP" uiCustom="ProcessStepAnchor"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="13.1.0.0" ___text="Wafer1" inputWafer="true" restartableWafer="true" uiHideChildNodes="true"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <type ___activeMember="measureSurfaceArea ">
+          <measureInterfaces isEnable="true">
+            <axis ___activeMember="x"/>
+            <startPoint isEnable="true" showHeader="true">
+              <x ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <y ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </startPoint>
+            <stopCoordinate ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <showLocationInViewer ___expression="true"/>
+            <showMaterialSpans ___expression="false"/>
+          </measureInterfaces>
+          <measureSurfaceArea isEnable="true">
+            <materials VersionNumber="13.1.0.0" uiHideChildNodes="true">
+              <_MaterialNodeType_Nitrides UserDefinedName="/Nitrides/" isEnable="true"/>
+              <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true"/>
+              <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true"/>
+            </materials>
+            <mask isEnable="true">
+              <name ___text=""/>
+              <polarity ___expression="false"/>
+              <lithographyResolution ___expression="22" ___lastKnownValue="22.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </mask>
+            <waferSide ___activeMember="both"/>
+            <calculationType ___activeMember="conformal"/>
+          </measureSurfaceArea>
+          <measureVolume isEnable="true">
+            <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+            <mask isEnable="true">
+              <name ___text=""/>
+              <polarity ___expression="false"/>
+              <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </mask>
+          </measureVolume>
+        </type>
+        <uiMeasurementSpacer ___text="" extraSpace="true"/>
+        <outputFileName ___text=""/>
+      </___Properties>
+    </___Item>
+  </___DocumentTree>
+
+</___Document>
