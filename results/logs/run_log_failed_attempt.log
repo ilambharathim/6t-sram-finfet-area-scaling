@@ -1,0 +1,307 @@
+09:49:09 INFO   Loading Assembly file: E:/6T_SRAM_Opt/FinFET.zam
+09:49:25 INFO   Loading Analysis file: E:/6T_SRAM_Opt/finFET.vanalysis
+09:51:14 INFO   Loading Process file: E:/6T_SRAM_Opt/FinFET.vproc
+09:51:22 INFO   Loading Material file: E:/6T_SRAM_Opt/FinFET.vmpd
+09:51:52 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:51:59 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:52:23 INFO   Saving build script: E:\6T_SRAM_Opt\__semu_FinFET.py
+09:52:26 INFO : License server value is 54015@172.23.244.37.
+09:52:26 INFO : Platform is Windows, 64-bit.
+09:52:26 INFO : PRODUCT_NAME             SEMulator3D
+09:52:26 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+09:52:26 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+09:52:26 INFO : 
+
+09:52:47 INFO   Default number of parallel workers = 8
+09:52:47 INFO   Adding new input file path: E:\6T_SRAM_Opt\
+09:54:38 INFO : 1:	Running WaferSetup ("Wafer Setup1")
+09:54:38 INFO   Voxel Wafer resolution is 1 nm.
+09:54:51 INFO   Model bounds for new wafer are 1093 by 552 voxels.
+09:54:52 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:52 INFO : 2:	Sequence ("FEOL")
+09:54:52 INFO : 2.1:	Sequence ("Fin")
+09:54:52 INFO : 2.1.1:	Running Deposit ("DEP PadOx")
+09:54:52 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:52 INFO : 2.1.2:	Running Deposit ("DEP PadNit")
+09:54:54 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:54 INFO : 2.1.3:	Running Deposit ("DEP Mandrel Silicon")
+09:54:55 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:55 INFO : 2.1.4:	Running Deposit ("DEP MandODL")
+09:54:55 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:55 INFO : 2.1.5:	Running Deposit ("DEP MandSiARC")
+09:54:56 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:56 INFO : 2.1.6:	Running Deposit ("DEP MandRes")
+09:54:57 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:57 INFO : 2.1.7:	Running ExposeMaterial ("LTH Mand")
+09:54:57 WARN   Mask named 'Fin' not found.  Creating an empty mask.
+09:54:57 WARN   Mask Rasterizer: Clipped mask is empty.
+09:54:57 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:57 INFO : 2.1.8:	Sequence ("RIE Mand")
+09:54:57 INFO : 2.1.8.1:	Running Etch ("RIE SiARC")
+09:54:58 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:58 INFO : 2.1.8.2:	Running Etch ("RIE ODL")
+09:54:59 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:54:59 INFO : 2.1.8.3:	Running Etch ("RIE Poly - Basic")
+09:55:00 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:00 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:00 INFO : 2.1.9:	Running Etch ("RIE MandRes")
+09:55:01 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:01 INFO : 2.1.10:	Running Deposit ("DEP FinSpcrOx")
+09:55:05 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:05 INFO : 2.1.11:	Running Etch ("RIE FinSpcrOx")
+09:55:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:06 INFO : 2.2:	Sequence ("FinCut")
+09:55:06 INFO : 2.2.1:	Running Deposit ("DEP FinCutRes")
+09:55:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:06 INFO : 2.2.2:	Running ExposeMaterial ("LTH FinCut")
+09:55:06 WARN   Mask named 'Active' not found.  Creating an empty mask.
+09:55:06 WARN   Mask Rasterizer: Clipped mask is empty.
+09:55:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:06 INFO : 2.2.3:	Running Etch ("RIE FinCutSpcrOx")
+09:55:07 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:07 INFO : 2.2.4:	Running RemoveMaterials ("RIE FinCutRes")
+09:55:07 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:07 INFO : 2.2.5:	Running Etch ("RIE MandSiRem")
+09:55:08 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:08 INFO : 2.2.6:	Running Etch ("RIE PadNit")
+09:55:08 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:08 INFO : 2.2.7:	Running Etch ("RIE PlanActRes")
+09:55:09 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:09 INFO : 2.2.8:	Running Etch ("RIE PadOx")
+09:55:10 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:10 INFO : 2.2.9:	Running Etch ("RIE Fin Si - Anisotropic")
+09:55:10 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:10 INFO : 2.2.10:	Running Etch ("RIE Fin Si - Taper")
+09:55:11 WARN   Operation is invoked without a mask.
+Either specify a mask or a zero etch rate material in the wafer to be used as a hard mask.
+09:55:11 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:11 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:11 INFO : 2.3:	Sequence ("STI")
+09:55:11 INFO : 2.3.1:	Running Deposit ("DEP STI HDP")
+09:55:13 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:13 INFO : 2.3.2:	Running Polish ("CMP HDP")
+09:55:15 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:15 INFO : 2.3.3:	Running Etch ("RIE STI Recess1")
+09:55:15 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:15 INFO : 2.3.4:	Running Etch ("WET HDP Clean")
+09:55:16 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:16 INFO : 2.3.5:	Running Etch ("WET PadNit Strip")
+09:55:16 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:16 INFO : 2.3.6:	Running Etch ("RIE STI Recess2")
+09:55:17 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:17 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:17 INFO : 2.4:	Sequence ("Gate")
+09:55:17 INFO : 2.4.1:	Running Deposit ("DEP SacOx")
+09:55:17 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:17 INFO : 2.4.2:	Running Deposit ("DEP SacGate")
+09:55:19 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:19 INFO : 2.4.3:	Running Polish ("CMP SacGate")
+09:55:19 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:19 INFO : 2.4.4:	Running Deposit ("DEP GateCapNit")
+09:55:20 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:20 INFO : 2.4.5:	Running Deposit ("DEP GateCapOx")
+09:55:21 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:21 INFO : 2.4.6:	Running Deposit ("DEP GateODL")
+09:55:21 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:21 INFO : 2.4.7:	Running Deposit ("DEP GateSiARC")
+09:55:22 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:22 INFO : 2.4.8:	Running Deposit ("DEP GateRes")
+09:55:23 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:23 INFO : 2.4.9:	Running ExposeMaterial ("LTH Gate")
+09:55:23 WARN   Mask named 'GateUncut' not found.  Creating an empty mask.
+09:55:23 WARN   Mask Rasterizer: Clipped mask is empty.
+09:55:23 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:23 INFO : 2.4.10:	Sequence ("RIE Gate Hard Mask")
+09:55:23 INFO : 2.4.10.1:	Running Etch ("RIE SiARC")
+09:55:24 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:24 INFO : 2.4.10.2:	Running Etch ("RIE ODL")
+09:55:25 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:25 INFO : 2.4.10.3:	Running Etch ("RIE Oxide BT")
+09:55:26 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:26 INFO : 2.4.10.4:	Running Etch ("RIE Nitride")
+09:55:27 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:27 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:27 INFO : 2.4.11:	Running Etch ("RIE GateRes")
+09:55:28 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:28 INFO : 2.4.12:	Running Deposit ("DEP GateCutODL")
+09:55:29 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:29 INFO : 2.4.13:	Running Deposit ("DEP GateCutSiARC")
+09:55:30 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:30 INFO : 2.4.14:	Running Deposit ("DEP GateCutRes")
+09:55:30 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:30 INFO : 2.4.15:	Running ExposeMaterial ("LTH GateCut")
+09:55:30 WARN   Mask named 'GateCut' not found.  Creating an empty mask.
+09:55:30 WARN   Mask Rasterizer: Clipped mask is empty.
+09:55:30 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:30 INFO : 2.4.16:	Sequence ("RIE GateCut")
+09:55:30 INFO : 2.4.16.1:	Running Etch ("RIE GateCut SiARC")
+09:55:31 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:31 INFO : 2.4.16.2:	Running Etch ("RIE GateCut ODL")
+09:55:32 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:32 INFO : 2.4.16.3:	Running Etch ("RIE GateCut Oxide BT")
+09:55:33 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:33 INFO : 2.4.16.4:	Running Etch ("RIE GateCut Nitride")
+09:55:34 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:34 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:34 INFO : 2.4.17:	Running Etch ("RIE GateCutRes")
+09:55:35 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:35 INFO : 2.4.18:	Running Etch ("RIE GateFinal - Simple")
+09:55:35 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:35 INFO : 2.4.19:	Running Etch ("WET Clean")
+09:55:35 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:35 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:35 INFO : 2.5:	Sequence ("Source/Drain")
+09:55:35 INFO : 2.5.1:	Sequence ("PSD")
+09:55:35 INFO : 2.5.1.1:	Running Deposit ("DEP PSpacerOx")
+09:55:35 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:35 INFO : 2.5.1.2:	Running Deposit ("DEP PSpacerNit")
+09:55:38 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:38 INFO : 2.5.1.3:	Running Deposit ("DEP PSpacerRes")
+09:55:38 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:38 INFO : 2.5.1.4:	Running ExposeMaterial ("LTH PSpacer")
+09:55:38 WARN   Mask named 'NWell' not found.  Creating an empty mask.
+09:55:38 WARN   Mask Rasterizer: Clipped mask is empty.
+09:55:38 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:38 INFO : 2.5.1.5:	Running Etch ("RIE PSpacer")
+09:55:39 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:39 INFO : 2.5.1.6:	Running Etch ("RIE PSD Recess - Simple")
+09:55:39 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:39 INFO : 2.5.1.7:	Running Etch ("RIE PSpacerRes")
+09:55:39 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:39 INFO : 2.5.1.8:	Running CrystalEtch ("WET PRecess")
+09:55:52 INFO   Plane dependent etch did nothing because no etchable materials were exposed to air.
+09:55:52 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:55:52 INFO : 2.5.1.9:	Running Growth ("EPI SiGe")
+09:56:03 INFO   Selective Epitaxy: growing material "/Silicon/SiGe" to depth 115 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.4.
+	<111> family rate is 0.01.
+	<113> family rate is 0.622108(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+09:56:03 INFO   Epitaxial growth: initializing ...
+09:56:04 WARN   Epitaxial deposition of /Silicon/SiGe deposited nothing because no crystalline substrate materials ( /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal ) were exposed to air.
+09:56:04 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:04 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:04 INFO : 2.5.2:	Sequence ("NSD")
+09:56:04 INFO : 2.5.2.1:	Running Deposit ("DEP NSpacerNit")
+09:56:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:06 INFO : 2.5.2.2:	Running Deposit ("DEP NSpacerRes")
+09:56:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:06 INFO : 2.5.2.3:	Running ExposeMaterial ("LTH NSpacer")
+09:56:06 WARN   Mask Rasterizer: Clipped mask is empty.
+09:56:06 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:06 INFO : 2.5.2.4:	Running Etch ("RIE NSpacer")
+09:56:07 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:07 INFO : 2.5.2.5:	Running Etch ("RIE NSD Recess - Simple")
+09:56:08 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:08 INFO : 2.5.2.6:	Running Etch ("RIE NSpacerRes")
+09:56:09 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:09 INFO : 2.5.2.7:	Running CrystalEtch ("WET NRecess")
+09:56:26 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/HfOx Rate:0.02
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_PECVD Rate:0.02
+ 	 /Oxides/SiO2_SiCOH Rate:0.02
+ 	 /Oxides/SiO2_TEOS Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+09:56:26 INFO   Plane dependent etch: initializing ...
+09:56:27 INFO   Crystal Etch 0.0% complete.
+09:56:28 INFO   Crystal Etch 13.6% complete.
+09:56:28 INFO   Crystal Etch 27.5% complete.
+09:56:29 INFO   Crystal Etch 41.5% complete.
+09:56:30 INFO   Crystal Etch 55.6% complete.
+09:56:31 INFO   Crystal Etch 69.9% complete.
+09:56:31 INFO   Crystal Etch 84.3% complete.
+09:56:32 INFO   Crystal Etch 98.9% complete.
+09:56:33 WARN   No solid materials found when saving step 2.5.2.7 'WET NRecess'.
+
+09:56:33 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:33 INFO : 2.5.2.8:	Running Growth ("EPI SiC")
+09:56:48 INFO   Selective Epitaxy: growing material "/Silicon/SiC" to depth 40 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.8.
+	<111> family rate is 0.5.
+	<113> family rate is 0.806597(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+09:56:48 INFO   Epitaxial growth: initializing ...
+09:56:48 WARN   Epitaxial deposition of /Silicon/SiC deposited nothing because no crystalline substrate materials ( /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal ) were exposed to air.
+09:56:48 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:49 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:49 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:49 INFO : 2.6:	Sequence ("RMG")
+09:56:49 INFO : 2.6.1:	Running Deposit ("DEP RMG ILD")
+09:56:49 WARN   Found Void adjacent to Air during internal operation - Skirt/Void may be corrupted (10234 v).
+09:56:50 WARN   No solid materials found when saving step 2.6.1 'DEP RMG ILD'.
+
+09:56:50 INFO   Saving assembly file "E:\6T_SRAM_Opt\FinFET.zam".
+09:56:50 INFO : 2.6.2:	Running Polish ("RMG ILD CMP")
+Traceback (most recent call last):
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
+RuntimeError: CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
+RuntimeError: Model build failed at step 2.6.2.  CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
+RuntimeError: Model build failed at step 2.6.2.  CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\6T_SRAM_Opt\__semu_FinFET.py", line 134, in <module>
+    success = modeler.BuildModel(procDoc, analysisDoc, spw)
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 223, in BuildModel
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
+RuntimeError: Model build failed at step 2.6.2.  CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
+
+Model build has failed (process exit code was 1).
+
+Build log file moved to : E:/6T_SRAM_Opt/FinFET-Output/FinFET.log
