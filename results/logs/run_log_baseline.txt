@@ -1,0 +1,866 @@
+16:55:51 INFO   Loading Assembly file: F:/Sram/FinFET.zam
+16:56:00 INFO   Loading Analysis file: F:/Sram/finFET.vanalysis
+16:57:21 INFO   Loading Process file: F:/Sram/FinFET.vproc
+16:57:29 INFO   Loading Material file: F:/Sram/FinFET.vmpd
+16:57:50 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+16:57:54 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+16:58:16 INFO   Saving build script: F:\Sram\__semu_FinFET.py
+16:58:29 INFO : License server value is 54015@172.23.244.37.
+16:58:29 INFO : Platform is Windows, 64-bit.
+16:58:29 INFO : PRODUCT_NAME             SEMulator3D
+16:58:29 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+16:58:29 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+16:58:29 INFO : 
+
+16:58:48 INFO   Default number of parallel workers = 8
+16:58:48 INFO   Adding new input file path: F:\Sram\
+17:00:19 INFO : 1:	Running WaferSetup ("Wafer Setup1")
+17:00:19 INFO   Voxel Wafer resolution is 1 nm.
+17:00:28 INFO   Model bounds for new wafer are 216 by 172 voxels.
+17:00:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:28 INFO : 2:	Sequence ("FEOL")
+17:00:28 INFO : 2.1:	Sequence ("Fin")
+17:00:28 INFO : 2.1.1:	Running Deposit ("DEP PadOx")
+17:00:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:28 INFO : 2.1.2:	Running Deposit ("DEP PadNit")
+17:00:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:28 INFO : 2.1.3:	Running Deposit ("DEP Mandrel Silicon")
+17:00:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:28 INFO : 2.1.4:	Running Deposit ("DEP MandODL")
+17:00:29 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:29 INFO : 2.1.5:	Running Deposit ("DEP MandSiARC")
+17:00:29 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:29 INFO : 2.1.6:	Running Deposit ("DEP MandRes")
+17:00:29 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:29 INFO : 2.1.7:	Running ExposeMaterial ("LTH Mand")
+17:00:29 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:29 INFO : 2.1.8:	Sequence ("RIE Mand")
+17:00:29 INFO : 2.1.8.1:	Running Etch ("RIE SiARC")
+17:00:29 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:29 INFO : 2.1.8.2:	Running Etch ("RIE ODL")
+17:00:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:30 INFO : 2.1.8.3:	Running Etch ("RIE Poly - Basic")
+17:00:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:30 INFO : 2.1.9:	Running Etch ("RIE MandRes")
+17:00:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:30 INFO : 2.1.10:	Running Deposit ("DEP FinSpcrOx")
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO : 2.1.11:	Running Etch ("RIE FinSpcrOx")
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO : 2.2:	Sequence ("FinCut")
+17:00:31 INFO : 2.2.1:	Running Deposit ("DEP FinCutRes")
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO : 2.2.2:	Running ExposeMaterial ("LTH FinCut")
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO : 2.2.3:	Running Etch ("RIE FinCutSpcrOx")
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO : 2.2.4:	Running RemoveMaterials ("RIE FinCutRes")
+17:00:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:31 INFO : 2.2.5:	Running Etch ("RIE MandSiRem")
+17:00:32 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:32 INFO : 2.2.6:	Running Etch ("RIE PadNit")
+17:00:32 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:32 INFO : 2.2.7:	Running Etch ("RIE PlanActRes")
+17:00:32 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:32 INFO : 2.2.8:	Running Etch ("RIE PadOx")
+17:00:32 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:32 INFO : 2.2.9:	Running Etch ("RIE Fin Si - Anisotropic")
+17:00:33 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:33 INFO : 2.2.10:	Running Etch ("RIE Fin Si - Taper")
+17:00:33 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:33 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:33 INFO : 2.3:	Sequence ("STI")
+17:00:33 INFO : 2.3.1:	Running Deposit ("DEP STI HDP")
+17:00:34 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:34 INFO : 2.3.2:	Running Polish ("CMP HDP")
+17:00:35 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:35 INFO : 2.3.3:	Running Etch ("RIE STI Recess1")
+17:00:35 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:35 INFO : 2.3.4:	Running Etch ("WET HDP Clean")
+17:00:35 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:35 INFO : 2.3.5:	Running Etch ("WET PadNit Strip")
+17:00:35 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:35 INFO : 2.3.6:	Running Etch ("RIE STI Recess2")
+17:00:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:36 INFO : 2.4:	Sequence ("Gate")
+17:00:36 INFO : 2.4.1:	Running Deposit ("DEP SacOx")
+17:00:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:36 INFO : 2.4.2:	Running Deposit ("DEP SacGate")
+17:00:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:37 INFO : 2.4.3:	Running Polish ("CMP SacGate")
+17:00:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:37 INFO : 2.4.4:	Running Deposit ("DEP GateCapNit")
+17:00:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:37 INFO : 2.4.5:	Running Deposit ("DEP GateCapOx")
+17:00:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:37 INFO : 2.4.6:	Running Deposit ("DEP GateODL")
+17:00:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:37 INFO : 2.4.7:	Running Deposit ("DEP GateSiARC")
+17:00:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:38 INFO : 2.4.8:	Running Deposit ("DEP GateRes")
+17:00:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:38 INFO : 2.4.9:	Running ExposeMaterial ("LTH Gate")
+17:00:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:38 INFO : 2.4.10:	Sequence ("RIE Gate Hard Mask")
+17:00:38 INFO : 2.4.10.1:	Running Etch ("RIE SiARC")
+17:00:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:38 INFO : 2.4.10.2:	Running Etch ("RIE ODL")
+17:00:39 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:39 INFO : 2.4.10.3:	Running Etch ("RIE Oxide BT")
+17:00:39 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:39 INFO : 2.4.10.4:	Running Etch ("RIE Nitride")
+17:00:39 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:39 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:39 INFO : 2.4.11:	Running Etch ("RIE GateRes")
+17:00:39 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:39 INFO : 2.4.12:	Running Deposit ("DEP GateCutODL")
+17:00:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:40 INFO : 2.4.13:	Running Deposit ("DEP GateCutSiARC")
+17:00:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:40 INFO : 2.4.14:	Running Deposit ("DEP GateCutRes")
+17:00:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:40 INFO : 2.4.15:	Running ExposeMaterial ("LTH GateCut")
+17:00:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:40 INFO : 2.4.16:	Sequence ("RIE GateCut")
+17:00:40 INFO : 2.4.16.1:	Running Etch ("RIE GateCut SiARC")
+17:00:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:40 INFO : 2.4.16.2:	Running Etch ("RIE GateCut ODL")
+17:00:41 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:41 INFO : 2.4.16.3:	Running Etch ("RIE GateCut Oxide BT")
+17:00:41 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:41 INFO : 2.4.16.4:	Running Etch ("RIE GateCut Nitride")
+17:00:42 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:42 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:42 INFO : 2.4.17:	Running Etch ("RIE GateCutRes")
+17:00:43 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:43 INFO : 2.4.18:	Running Etch ("RIE GateFinal - Simple")
+17:00:44 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:44 INFO : 2.4.19:	Running Etch ("WET Clean")
+17:00:44 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:44 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:44 INFO : 2.5:	Sequence ("Source/Drain")
+17:00:44 INFO : 2.5.1:	Sequence ("PSD")
+17:00:44 INFO : 2.5.1.1:	Running Deposit ("DEP PSpacerOx")
+17:00:45 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:45 INFO : 2.5.1.2:	Running Deposit ("DEP PSpacerNit")
+17:00:46 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:46 INFO : 2.5.1.3:	Running Deposit ("DEP PSpacerRes")
+17:00:47 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:47 INFO : 2.5.1.4:	Running ExposeMaterial ("LTH PSpacer")
+17:00:47 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:47 INFO : 2.5.1.5:	Running Etch ("RIE PSpacer")
+17:00:48 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:48 INFO : 2.5.1.6:	Running Etch ("RIE PSD Recess - Simple")
+17:00:49 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:49 INFO : 2.5.1.7:	Running Etch ("RIE PSpacerRes")
+17:00:51 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:00:51 INFO : 2.5.1.8:	Running CrystalEtch ("WET PRecess")
+17:01:04 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/HfOx Rate:0.02
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_PECVD Rate:0.02
+ 	 /Oxides/SiO2_SiCOH Rate:0.02
+ 	 /Oxides/SiO2_TEOS Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+17:01:04 INFO   Plane dependent etch: initializing ...
+17:01:09 INFO   Crystal Etch 0.0% complete.
+17:01:09 INFO   Crystal Etch 10.8% complete.
+17:01:09 INFO   Crystal Etch 21.2% complete.
+17:01:10 INFO   Crystal Etch 31.2% complete.
+17:01:10 INFO   Crystal Etch 41.3% complete.
+17:01:10 INFO   Crystal Etch 51.5% complete.
+17:01:10 INFO   Crystal Etch 61.8% complete.
+17:01:11 INFO   Crystal Etch 72.1% complete.
+17:01:11 INFO   Crystal Etch 82.3% complete.
+17:01:11 INFO   Crystal Etch 92.7% complete.
+17:01:12 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:01:12 INFO : 2.5.1.9:	Running Growth ("EPI SiGe")
+17:01:15 INFO   Selective Epitaxy: growing material "/Silicon/SiGe" to depth 115 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.4.
+	<111> family rate is 0.01.
+	<113> family rate is 0.622108(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+17:01:15 INFO   Epitaxial growth: initializing ...
+17:01:21 INFO   Epi Growth 0.0% complete.
+17:01:24 INFO   Epi Growth 10.1% complete.
+17:01:27 INFO   Epi Growth 20.1% complete.
+17:01:30 INFO   Epi Growth 30.1% complete.
+17:01:34 INFO   Epi Growth 40.2% complete.
+17:01:39 INFO   Epi Growth 50.2% complete.
+17:01:43 INFO   Epi Growth 60.2% complete.
+17:01:47 INFO   Epi Growth 70.4% complete.
+17:01:51 INFO   Epi Growth 80.5% complete.
+17:01:56 INFO   Epi Growth 90.5% complete.
+17:02:00 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:00 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:00 INFO : 2.5.2:	Sequence ("NSD")
+17:02:00 INFO : 2.5.2.1:	Running Deposit ("DEP NSpacerNit")
+17:02:01 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:01 INFO : 2.5.2.2:	Running Deposit ("DEP NSpacerRes")
+17:02:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:02 INFO : 2.5.2.3:	Running ExposeMaterial ("LTH NSpacer")
+17:02:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:02 INFO : 2.5.2.4:	Running Etch ("RIE NSpacer")
+17:02:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:04 INFO : 2.5.2.5:	Running Etch ("RIE NSD Recess - Simple")
+17:02:05 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:05 INFO : 2.5.2.6:	Running Etch ("RIE NSpacerRes")
+17:02:07 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:07 INFO : 2.5.2.7:	Running CrystalEtch ("WET NRecess")
+17:02:11 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/HfOx Rate:0.02
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_PECVD Rate:0.02
+ 	 /Oxides/SiO2_SiCOH Rate:0.02
+ 	 /Oxides/SiO2_TEOS Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+17:02:11 INFO   Plane dependent etch: initializing ...
+17:02:17 INFO   Crystal Etch 0.0% complete.
+17:02:17 INFO   Crystal Etch 10.4% complete.
+17:02:18 INFO   Crystal Etch 20.7% complete.
+17:02:18 INFO   Crystal Etch 31.6% complete.
+17:02:18 INFO   Crystal Etch 42.1% complete.
+17:02:19 INFO   Crystal Etch 52.8% complete.
+17:02:19 INFO   Crystal Etch 63.5% complete.
+17:02:19 INFO   Crystal Etch 74.6% complete.
+17:02:20 INFO   Crystal Etch 85.6% complete.
+17:02:20 INFO   Crystal Etch 96.6% complete.
+17:02:21 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:21 INFO : 2.5.2.8:	Running Growth ("EPI SiC")
+17:02:24 INFO   Selective Epitaxy: growing material "/Silicon/SiC" to depth 40 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.8.
+	<111> family rate is 0.5.
+	<113> family rate is 0.806597(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+17:02:24 INFO   Epitaxial growth: initializing ...
+17:02:31 INFO   Epi Growth 0.0% complete.
+17:02:32 INFO   Epi Growth 10.4% complete.
+17:02:33 INFO   Epi Growth 20.8% complete.
+17:02:34 INFO   Epi Growth 30.8% complete.
+17:02:35 INFO   Epi Growth 41.1% complete.
+17:02:37 INFO   Epi Growth 51.4% complete.
+17:02:38 INFO   Epi Growth 61.7% complete.
+17:02:40 INFO   Epi Growth 72.1% complete.
+17:02:42 INFO   Epi Growth 82.8% complete.
+17:02:45 INFO   Epi Growth 93.1% complete.
+17:02:47 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:47 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:47 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:47 INFO : 2.6:	Sequence ("RMG")
+17:02:47 INFO : 2.6.1:	Running Deposit ("DEP RMG ILD")
+17:02:50 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:50 INFO : 2.6.2:	Running Polish ("RMG ILD CMP")
+17:02:52 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:52 INFO : 2.6.3:	Running Etch ("RIE RMGILD NonSel")
+17:02:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:53 INFO : 2.6.4:	Running Etch ("RIE RMGILD Selective")
+17:02:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:53 INFO : 2.6.5:	Running Etch ("WET SacrificalGate")
+17:02:55 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:55 INFO : 2.6.6:	Running Etch ("WET SacOx")
+17:02:56 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:56 INFO : 2.6.7:	Running Deposit ("DEP HighK")
+17:02:57 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:57 INFO : 2.6.8:	Running Deposit ("DEP PTiN")
+17:02:57 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:02:57 INFO : 2.6.9:	Running Deposit ("DEP PTaN - VizDep")
+17:03:06 INFO   Visibility Deposit: depositing material "/Metals/TaN" to depth 4 nm on wafer Top with source sigma 0.3, isotropic ratio 0.4, lateral ratio 1, tilt/twist angles = 0/0.
+17:03:06 INFO   Visibility Deposit: initializing ....
+17:03:07 INFO   Visibility Deposit 0.0% complete.
+17:03:08 INFO   Visibility Deposit 11.6% complete.
+17:03:08 INFO   Visibility Deposit 23.2% complete.
+17:03:08 INFO   Visibility Deposit 34.8% complete.
+17:03:09 INFO   Visibility Deposit 46.3% complete.
+17:03:10 INFO   Visibility Deposit 57.9% complete.
+17:03:10 INFO   Visibility Deposit 69.5% complete.
+17:03:10 INFO   Visibility Deposit 81.1% complete.
+17:03:11 INFO   Visibility Deposit 92.7% complete.
+17:03:12 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:12 INFO : 2.6.10:	Running Deposit ("DEP NWFRes")
+17:03:12 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:12 INFO : 2.6.11:	Running ExposeMaterial ("LTH NWF")
+17:03:13 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:13 INFO : 2.6.12:	Running Etch ("RIE N WorkFunction Metal")
+17:03:14 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:14 INFO : 2.6.13:	Running Etch ("RIE NWFRes")
+17:03:15 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:15 INFO : 2.6.14:	Running Deposit ("DEP NTiAl - VizDep")
+17:03:15 INFO   Visibility Deposit: depositing material "/Metals/TiAl" to depth 5 nm on wafer Top with source sigma 0.3, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:03:15 INFO   Visibility Deposit: initializing ....
+17:03:16 INFO   Visibility Deposit 0.0% complete.
+17:03:17 INFO   Visibility Deposit 14.7% complete.
+17:03:17 INFO   Visibility Deposit 29.5% complete.
+17:03:19 INFO   Visibility Deposit 44.2% complete.
+17:03:19 INFO   Visibility Deposit 58.9% complete.
+17:03:21 INFO   Visibility Deposit 73.7% complete.
+17:03:21 INFO   Visibility Deposit 88.4% complete.
+17:03:22 INFO   Visibility Deposit 100.0% complete.
+17:03:22 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:22 INFO : 2.6.15:	Running Deposit ("DEP NTin - VizDep")
+17:03:22 INFO   Visibility Deposit: depositing material "/Metals/TiN" to depth 4 nm on wafer Top with source sigma 0.3, isotropic ratio 0.4, lateral ratio 1, tilt/twist angles = 0/0.
+17:03:22 INFO   Visibility Deposit: initializing ....
+17:03:24 INFO   Visibility Deposit 0.0% complete.
+17:03:25 INFO   Visibility Deposit 11.6% complete.
+17:03:25 INFO   Visibility Deposit 23.2% complete.
+17:03:26 INFO   Visibility Deposit 34.8% complete.
+17:03:27 INFO   Visibility Deposit 46.3% complete.
+17:03:27 INFO   Visibility Deposit 57.9% complete.
+17:03:28 INFO   Visibility Deposit 69.5% complete.
+17:03:28 INFO   Visibility Deposit 81.1% complete.
+17:03:29 INFO   Visibility Deposit 92.7% complete.
+17:03:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:30 INFO : 2.6.16:	Running Deposit ("DEP RMG W")
+17:03:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:31 INFO : 2.6.17:	Running Polish ("CMP RMG W")
+17:03:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:36 INFO : 2.6.18:	Running Etch ("RIE RMGW")
+17:03:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:37 INFO : 2.6.19:	Running Deposit ("DEP GatePlugNit")
+17:03:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:38 INFO : 2.6.20:	Running Etch ("RIE GatePlugNit")
+17:03:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:38 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:38 INFO : 3:	Sequence ("MOL")
+17:03:38 INFO : 3.1:	Running Deposit ("DEP MOLOx")
+17:03:39 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:39 INFO : 3.2:	Running Deposit ("DEP LIODL")
+17:03:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:40 INFO : 3.3:	Running Deposit ("DEP LISiARC")
+17:03:40 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:40 INFO : 3.4:	Running Deposit ("DEP LIRes")
+17:03:41 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:41 INFO : 3.5:	Running ExposeMaterial ("LTH LI")
+17:03:41 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:41 INFO : 3.6:	Sequence ("RIE LI")
+17:03:41 INFO : 3.6.1:	Running Etch ("RIE LI SiARC")
+17:03:41 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:41 INFO : 3.6.2:	Running Etch ("RIE LI ODL")
+17:03:42 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:42 INFO : 3.6.3:	Running Etch ("Trench Etch1")
+17:03:43 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:43 INFO : 3.6.4:	Running Etch ("Trench Etch2")
+17:03:48 WARN   Operation is set to use hard mask that is not the top level material on the wafer. Result may not be as expected!
+17:03:48 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:48 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:48 INFO : 3.7:	Running RemoveMaterials ("RIE LIRes")
+17:03:49 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:49 INFO : 3.8:	Running Etch ("WET Clean")
+17:03:49 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:49 INFO : 3.9:	Running Deposit ("DEP LI Ti")
+17:03:50 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:50 INFO : 3.10:	Running Deposit ("DEP LI TiN")
+17:03:50 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:50 INFO : 3.11:	Running Deposit ("DEP LI W")
+17:03:52 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:52 INFO : 3.12:	Running Polish ("CMP LI W")
+17:03:52 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:52 INFO : 3.13:	Running Etch ("RIE LIW")
+17:03:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:53 INFO : 4:	Sequence ("BEOL")
+17:03:53 INFO : 4.1:	Sequence ("V0")
+17:03:53 INFO : 4.1.1:	Sequence ("V0 Films")
+17:03:53 INFO : 4.1.1.1:	Running Deposit ("NBLoK Cap Deposition")
+17:03:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:53 INFO : 4.1.1.2:	Running Deposit ("SiCOH Deposition")
+17:03:54 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:54 INFO : 4.1.1.3:	Running Deposit ("LTO Deposition")
+17:03:55 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:55 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:55 INFO : 4.1.2:	Sequence ("V0 Litho")
+17:03:55 INFO : 4.1.2.1:	Running Deposit ("ODL Deposition")
+17:03:55 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:56 INFO : 4.1.2.2:	Running Deposit ("SiARC Deposition")
+17:03:56 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:56 INFO : 4.1.2.3:	Running Deposit ("Resist Deposition")
+17:03:57 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:57 INFO : 4.1.2.4:	Running ExposeMaterial ("V0 Litho")
+17:03:57 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:57 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:03:57 INFO : 4.1.3:	Sequence ("V0 HMO")
+17:03:57 INFO : 4.1.3.1:	Running MultiEtch ("SiARC Etch - MultiEtch")
+17:04:06 INFO   Invoking MultiEtch with etch depth 45 nm on top side.
+17:04:06 INFO   Material-specific parameters (ignoring absent materials):
+17:04:06 INFO   	"/Metals/TaN": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Metals/Ti": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Metals/TiAl": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Metals/TiN": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Metals/W": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Nitrides/Si3N4_MLD": type=Basic, Etch Ratio=0.3, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Nitrides/Si3N4_NBLoK": type=Basic, Etch Ratio=0.3, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Nitrides/Si3N4_PECVD": type=Basic, Etch Ratio=0.3, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Organics/ODL": type=Sputter, Etch Ratio=0.5, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled, Sputter Ratio=0.3, pattern dependence disabled, MaxYield Angle=50
+17:04:06 INFO   	"/Organics/Resist": type=Sputter, Etch Ratio=0.5, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled, Sputter Ratio=0.3, pattern dependence disabled, MaxYield Angle=50
+17:04:06 INFO   	"/Oxides/HfOx": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Oxides/SiO2_HDP": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Oxides/SiO2_HTO": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Oxides/SiO2_LTO": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Oxides/SiO2_PECVD": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Oxides/SiO2_SiCOH": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Oxides/SiO2_TEOS": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Silicon/SiARC": type=Taper, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0, pattern dependence disabled, Sidewall Angle=8, pattern dependence disabled
+17:04:06 INFO   	"/Silicon/SiC": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Silicon/SiGe": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   	"/Silicon/Si_Xtal": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:04:06 INFO   Etching has no tilt or twist, and no rotation.
+17:04:06 INFO   MultiEtch: initializing ...
+17:04:07 INFO   MultiEtch 0.0% complete.
+17:04:08 INFO   MultiEtch 11.0% complete.
+17:04:10 INFO   MultiEtch 22.2% complete.
+17:04:11 INFO   MultiEtch 33.4% complete.
+17:04:13 INFO   MultiEtch 44.6% complete.
+17:04:14 INFO   MultiEtch 55.9% complete.
+17:04:16 INFO   MultiEtch 67.2% complete.
+17:04:18 INFO   MultiEtch 78.4% complete.
+17:04:21 INFO   MultiEtch 89.2% complete.
+17:04:23 INFO   MultiEtch 99.5% complete.
+17:04:24 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:24 INFO : 4.1.3.2:	Running Etch ("ODL Etch")
+17:04:26 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:26 INFO : 4.1.3.3:	Running Etch ("SiARC Clean-up Etch")
+17:04:27 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:27 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:27 INFO : 4.1.4:	Sequence ("V0 Trench")
+17:04:27 INFO : 4.1.4.1:	Running Etch ("SICOH Etch")
+17:04:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:28 INFO : 4.1.4.2:	Running RemoveMaterials ("Resist Strip")
+17:04:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:28 INFO : 4.1.4.3:	Running Etch ("NBLoK Open Etch")
+17:04:29 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:29 INFO : 4.1.4.4:	Running Etch ("MOLOx Etch")
+17:04:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:31 INFO : 4.1.4.5:	Running Etch ("NitCap Etch")
+17:04:32 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:32 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:32 INFO : 4.1.5:	Sequence ("V0 Fill")
+17:04:32 INFO : 4.1.5.1:	Running Deposit ("Barrier Ta Deposition - VizDep")
+17:04:32 INFO   Visibility Deposit: depositing material "/Metals/Ta" to depth 3 nm on wafer Top with source sigma 0.5, isotropic ratio 0.5, lateral ratio 1, tilt/twist angles = 0/0.
+17:04:32 INFO   Visibility Deposit: initializing ....
+17:04:33 INFO   Visibility Deposit 0.0% complete.
+17:04:34 INFO   Visibility Deposit 14.5% complete.
+17:04:34 INFO   Visibility Deposit 29.0% complete.
+17:04:35 INFO   Visibility Deposit 43.6% complete.
+17:04:36 INFO   Visibility Deposit 58.1% complete.
+17:04:36 INFO   Visibility Deposit 72.6% complete.
+17:04:36 INFO   Visibility Deposit 87.1% complete.
+17:04:36 INFO   Visibility Deposit 100.0% complete.
+17:04:37 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:37 INFO : 4.1.5.2:	Running Deposit ("Liner TaN Deposition - VizDep")
+17:04:37 INFO   Visibility Deposit: depositing material "/Metals/TaN" to depth 5 nm on wafer Top with source sigma 1, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:04:37 INFO   Visibility Deposit: initializing ....
+17:04:39 INFO   Visibility Deposit 0.0% complete.
+17:04:39 INFO   Visibility Deposit 13.3% complete.
+17:04:40 INFO   Visibility Deposit 26.6% complete.
+17:04:41 INFO   Visibility Deposit 39.9% complete.
+17:04:41 INFO   Visibility Deposit 53.2% complete.
+17:04:42 INFO   Visibility Deposit 66.4% complete.
+17:04:42 INFO   Visibility Deposit 79.7% complete.
+17:04:43 INFO   Visibility Deposit 93.1% complete.
+17:04:44 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:44 INFO : 4.1.5.3:	Running Deposit ("Cu Seed Deposition - VizDep")
+17:04:44 INFO   Visibility Deposit: depositing material "/Metals/Cu" to depth 5 nm on wafer Top with source sigma 1, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:04:44 INFO   Visibility Deposit: initializing ....
+17:04:46 INFO   Visibility Deposit 0.0% complete.
+17:04:46 INFO   Visibility Deposit 13.3% complete.
+17:04:47 INFO   Visibility Deposit 26.6% complete.
+17:04:47 INFO   Visibility Deposit 39.9% complete.
+17:04:48 INFO   Visibility Deposit 53.2% complete.
+17:04:49 INFO   Visibility Deposit 66.5% complete.
+17:04:49 INFO   Visibility Deposit 79.8% complete.
+17:04:49 INFO   Visibility Deposit 93.1% complete.
+17:04:51 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:51 INFO : 4.1.5.4:	Running Growth ("Cu Electroplate")
+17:04:54 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:54 INFO : 4.1.5.5:	Running Polish ("Cu CMP")
+17:04:59 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:04:59 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:00 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:00 INFO : 4.2:	Sequence ("M1")
+17:05:00 INFO : 4.2.1:	Sequence ("M1 Films")
+17:05:00 INFO : 4.2.1.1:	Running Deposit ("NBLoK Cap Deposition")
+17:05:00 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:00 INFO : 4.2.1.2:	Running Deposit ("SiCOH Deposition")
+17:05:01 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:01 INFO : 4.2.1.3:	Running Deposit ("LTO Deposition")
+17:05:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:02 INFO : 4.2.2:	Sequence ("M1 Litho")
+17:05:02 INFO : 4.2.2.1:	Running Deposit ("ODL Deposition")
+17:05:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:02 INFO : 4.2.2.2:	Running Deposit ("SiARC Deposition")
+17:05:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:03 INFO : 4.2.2.3:	Running Deposit ("Resist Deposition")
+17:05:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:04 INFO : 4.2.2.4:	Running ExposeMaterial ("M1 Litho")
+17:05:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:04 INFO : 4.2.3:	Sequence ("M1 HMO")
+17:05:04 INFO : 4.2.3.1:	Running MultiEtch ("SiARC Etch - MultiEtch")
+17:05:05 INFO   Invoking MultiEtch with etch depth 45 nm on top side.
+17:05:05 INFO   Material-specific parameters (ignoring absent materials):
+17:05:05 INFO   	"/Metals/Cu": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Metals/Ta": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Metals/TaN": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Metals/Ti": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Metals/TiAl": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Metals/TiN": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Metals/W": type=Basic, Etch Ratio=0.1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Nitrides/Si3N4_MLD": type=Basic, Etch Ratio=0.3, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Nitrides/Si3N4_NBLoK": type=Basic, Etch Ratio=0.3, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Nitrides/Si3N4_PECVD": type=Basic, Etch Ratio=0.3, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Organics/ODL": type=Sputter, Etch Ratio=0.5, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled, Sputter Ratio=0.3, pattern dependence disabled, MaxYield Angle=50
+17:05:05 INFO   	"/Organics/Resist": type=Sputter, Etch Ratio=0.5, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled, Sputter Ratio=0.3, pattern dependence disabled, MaxYield Angle=50
+17:05:05 INFO   	"/Oxides/HfOx": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Oxides/SiO2_HDP": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Oxides/SiO2_HTO": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Oxides/SiO2_LTO": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Oxides/SiO2_PECVD": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Oxides/SiO2_SiCOH": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Oxides/SiO2_TEOS": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Silicon/SiARC": type=Taper, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0, pattern dependence disabled, Sidewall Angle=8, pattern dependence disabled
+17:05:05 INFO   	"/Silicon/SiC": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Silicon/SiGe": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   	"/Silicon/Si_Xtal": type=Basic, Etch Ratio=1, pattern dependence disabled, Lateral Ratio=0.1, pattern dependence disabled
+17:05:05 INFO   Etching has no tilt or twist, and no rotation.
+17:05:05 INFO   MultiEtch: initializing ...
+17:05:06 INFO   MultiEtch 0.0% complete.
+17:05:07 INFO   MultiEtch 11.2% complete.
+17:05:09 INFO   MultiEtch 22.4% complete.
+17:05:10 INFO   MultiEtch 33.7% complete.
+17:05:12 INFO   MultiEtch 44.9% complete.
+17:05:15 INFO   MultiEtch 56.2% complete.
+17:05:17 INFO   MultiEtch 67.5% complete.
+17:05:20 INFO   MultiEtch 78.5% complete.
+17:05:22 INFO   MultiEtch 88.6% complete.
+17:05:24 INFO   MultiEtch 98.8% complete.
+17:05:26 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:26 INFO : 4.2.3.2:	Running Etch ("ODL Etch")
+17:05:27 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:27 INFO : 4.2.3.3:	Running Etch ("SiARC Clean-up Etch")
+17:05:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:28 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:28 INFO : 4.2.4:	Sequence ("M1 Trench")
+17:05:28 INFO : 4.2.4.1:	Running Etch ("SICOH Etch")
+17:05:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:30 INFO : 4.2.4.2:	Running RemoveMaterials ("Resist Strip")
+17:05:30 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:30 INFO : 4.2.4.3:	Running Etch ("NBLoK Open Etch")
+17:05:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:31 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:31 INFO : 4.2.5:	Sequence ("M1 Fill")
+17:05:31 INFO : 4.2.5.1:	Running Deposit ("Barrier Ta Deposition - VizDep")
+17:05:31 INFO   Visibility Deposit: depositing material "/Metals/Ta" to depth 3 nm on wafer Top with source sigma 0.5, isotropic ratio 0.5, lateral ratio 1, tilt/twist angles = 0/0.
+17:05:31 INFO   Visibility Deposit: initializing ....
+17:05:33 INFO   Visibility Deposit 0.0% complete.
+17:05:33 INFO   Visibility Deposit 14.5% complete.
+17:05:34 INFO   Visibility Deposit 29.0% complete.
+17:05:34 INFO   Visibility Deposit 43.5% complete.
+17:05:35 INFO   Visibility Deposit 58.0% complete.
+17:05:35 INFO   Visibility Deposit 72.6% complete.
+17:05:36 INFO   Visibility Deposit 87.1% complete.
+17:05:36 INFO   Visibility Deposit 100.0% complete.
+17:05:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:36 INFO : 4.2.5.2:	Running Deposit ("Liner TaN Deposition - VizDep")
+17:05:36 INFO   Visibility Deposit: depositing material "/Metals/TaN" to depth 5 nm on wafer Top with source sigma 1, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:05:36 INFO   Visibility Deposit: initializing ....
+17:05:38 INFO   Visibility Deposit 0.0% complete.
+17:05:39 INFO   Visibility Deposit 13.4% complete.
+17:05:39 INFO   Visibility Deposit 26.9% complete.
+17:05:41 INFO   Visibility Deposit 40.2% complete.
+17:05:41 INFO   Visibility Deposit 53.6% complete.
+17:05:42 INFO   Visibility Deposit 67.0% complete.
+17:05:43 INFO   Visibility Deposit 80.3% complete.
+17:05:43 INFO   Visibility Deposit 93.6% complete.
+17:05:45 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:45 INFO : 4.2.5.3:	Running Deposit ("Cu Seed Deposition - VizDep")
+17:05:45 INFO   Visibility Deposit: depositing material "/Metals/Cu" to depth 5 nm on wafer Top with source sigma 1, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:05:45 INFO   Visibility Deposit: initializing ....
+17:05:47 INFO   Visibility Deposit 0.0% complete.
+17:05:47 INFO   Visibility Deposit 13.2% complete.
+17:05:48 INFO   Visibility Deposit 26.5% complete.
+17:05:49 INFO   Visibility Deposit 39.7% complete.
+17:05:49 INFO   Visibility Deposit 53.0% complete.
+17:05:50 INFO   Visibility Deposit 66.3% complete.
+17:05:51 INFO   Visibility Deposit 79.5% complete.
+17:05:51 INFO   Visibility Deposit 92.8% complete.
+17:05:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:53 INFO : 4.2.5.4:	Running Growth ("Cu Electroplate")
+17:05:56 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:05:56 INFO : 4.2.5.5:	Running Polish ("Cu CMP")
+17:06:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:02 INFO : 4.3:	Sequence ("M2V1")
+17:06:02 INFO : 4.3.1:	Sequence ("Film Deposition")
+17:06:02 INFO : 4.3.1.1:	Running Deposit ("NBLoK Cap Dep")
+17:06:02 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:02 INFO : 4.3.1.2:	Running Deposit ("SiCOH Dep")
+17:06:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:03 INFO : 4.3.1.3:	Running Deposit ("LTO Dep")
+17:06:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:04 INFO : 4.3.1.4:	Running Deposit ("TiN HM Dep")
+17:06:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:05 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:05 INFO : 4.3.2:	Sequence ("M2 L1")
+17:06:05 INFO : 4.3.2.1:	Running Deposit ("ODL Dep")
+17:06:05 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:05 INFO : 4.3.2.2:	Running Deposit ("SiARC Dep")
+17:06:06 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:06 INFO : 4.3.2.3:	Running Deposit ("Trench Resist")
+17:06:07 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:07 INFO : 4.3.2.4:	Running MaskOperations ("Mask Gen")
+17:06:07 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:07 INFO : 4.3.2.5:	Running ExposeMaterial ("Litho")
+17:06:07 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:07 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:07 INFO : 4.3.3:	Sequence ("M2 E1 Mask Etch")
+17:06:07 INFO : 4.3.3.1:	Running Deposit ("PDP Dep")
+17:06:07 INFO   Visibility Deposit: depositing material "/Organics/Polymer" to depth 7 nm on wafer Top with source sigma 0.5, isotropic ratio 0.2, lateral ratio 1, tilt/twist angles = 0/0.
+17:06:07 INFO   Visibility Deposit: initializing ....
+17:06:08 INFO   Visibility Deposit 0.0% complete.
+17:06:09 INFO   Visibility Deposit 11.8% complete.
+17:06:09 INFO   Visibility Deposit 23.6% complete.
+17:06:10 INFO   Visibility Deposit 35.4% complete.
+17:06:10 INFO   Visibility Deposit 47.3% complete.
+17:06:11 INFO   Visibility Deposit 59.1% complete.
+17:06:11 INFO   Visibility Deposit 70.9% complete.
+17:06:12 INFO   Visibility Deposit 82.7% complete.
+17:06:12 INFO   Visibility Deposit 94.5% complete.
+17:06:13 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:13 INFO : 4.3.3.2:	Running Etch ("SiARC Etch")
+17:06:21 WARN   Operation is set to use hard mask that is not the top level material on the wafer. Result may not be as expected!
+17:06:22 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:23 INFO : 4.3.3.3:	Running Etch ("ODL Etch")
+17:06:23 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:23 INFO : 4.3.3.4:	Running Etch ("SiARC Clean-up Etch")
+17:06:24 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:24 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:24 INFO : 4.3.4:	Sequence ("M2 E1 HMO")
+17:06:24 INFO : 4.3.4.1:	Running Etch ("HM Etch")
+17:06:32 WARN   Operation is invoked without a mask.
+Either specify a mask or a zero etch rate material in the wafer to be used as a hard mask.
+17:06:33 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:33 INFO : 4.3.4.2:	Running RemoveMaterials ("Resist Strip")
+17:06:33 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:33 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:33 INFO : 4.3.5:	Sequence ("M2 L2")
+17:06:33 INFO : 4.3.5.1:	Running Deposit ("ODL Dep")
+17:06:34 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:34 INFO : 4.3.5.2:	Running Deposit ("SiARC Dep")
+17:06:35 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:35 INFO : 4.3.5.3:	Running Deposit ("Trench Resist")
+17:06:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:36 INFO : 4.3.5.4:	Running MaskOperations ("Mask Gen")
+17:06:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:36 INFO : 4.3.5.5:	Running ExposeMaterial ("Litho")
+17:06:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:36 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:36 INFO : 4.3.6:	Sequence ("M2 E2 Mask Etch")
+17:06:36 INFO : 4.3.6.1:	Running Deposit ("PDP Dep")
+17:06:36 INFO   Visibility Deposit: depositing material "/Organics/Polymer" to depth 7 nm on wafer Top with source sigma 0.5, isotropic ratio 0.2, lateral ratio 1, tilt/twist angles = 0/0.
+17:06:36 INFO   Visibility Deposit: initializing ....
+17:06:37 INFO   Visibility Deposit 0.0% complete.
+17:06:37 INFO   Visibility Deposit 11.1% complete.
+17:06:38 INFO   Visibility Deposit 22.2% complete.
+17:06:38 INFO   Visibility Deposit 33.3% complete.
+17:06:39 INFO   Visibility Deposit 44.3% complete.
+17:06:39 INFO   Visibility Deposit 55.4% complete.
+17:06:39 INFO   Visibility Deposit 66.4% complete.
+17:06:40 INFO   Visibility Deposit 77.4% complete.
+17:06:40 INFO   Visibility Deposit 88.3% complete.
+17:06:41 INFO   Visibility Deposit 99.3% complete.
+17:06:42 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:42 INFO : 4.3.6.2:	Running Etch ("SiARC Etch")
+17:06:50 WARN   Operation is set to use hard mask that is not the top level material on the wafer. Result may not be as expected!
+17:06:51 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:51 INFO : 4.3.6.3:	Running Etch ("ODL Etch")
+17:06:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:53 INFO : 4.3.6.4:	Running Etch ("SiARC Clean-up Etch")
+17:06:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:06:53 INFO : 4.3.7:	Sequence ("M2 L2 TiN HM Etch")
+17:06:53 INFO : 4.3.7.1:	Running Etch ("HM Etch")
+17:07:01 WARN   Operation is invoked without a mask.
+Either specify a mask or a zero etch rate material in the wafer to be used as a hard mask.
+17:07:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:03 INFO : 4.3.7.2:	Running RemoveMaterials ("Resist Strip")
+17:07:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:03 INFO : 4.3.8:	Sequence ("V1 Litho")
+17:07:03 INFO : 4.3.8.1:	Running Deposit ("ODL Dep")
+17:07:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:04 INFO : 4.3.8.2:	Running Deposit ("SiARC Dep")
+17:07:04 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:04 INFO : 4.3.8.3:	Running Deposit ("Resist Dep")
+17:07:05 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:05 INFO : 4.3.8.4:	Running MaskOperations ("SAV Mask Gen")
+17:07:05 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:05 INFO : 4.3.8.5:	Running ExposeMaterial ("Via Litho")
+17:07:06 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:06 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:06 INFO : 4.3.9:	Sequence ("V1 Mask Etch")
+17:07:06 INFO : 4.3.9.1:	Running Etch ("SiARC Etch")
+17:07:07 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:07 INFO : 4.3.9.2:	Running Etch ("ODL Etch")
+17:07:08 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:08 INFO : 4.3.9.3:	Running Etch ("SiARC Clean-up Etch")
+17:07:09 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:09 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:09 INFO : 4.3.10:	Sequence ("M2V1 Etch")
+17:07:09 INFO : 4.3.10.1:	Running Etch ("Via Partial Etch")
+17:07:10 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:10 INFO : 4.3.10.2:	Running RemoveMaterials ("Via Resist Strip")
+17:07:10 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:10 INFO : 4.3.10.3:	Running Etch ("Trench ME")
+17:07:12 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:12 INFO : 4.3.10.4:	Running MultiEtch ("Tr OE")
+17:07:12 INFO   Invoking MultiEtch with etch depth 15 nm on top side.
+17:07:12 INFO   Material-specific parameters (ignoring absent materials):
+17:07:12 INFO   	"/Metals/Cu": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Metals/Ta": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Metals/TaN": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Metals/Ti": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Metals/TiAl": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Metals/TiN": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Metals/W": type=Sputter, Etch Ratio=0.025, Lateral Ratio=0.02, Sputter Ratio=6, MaxYield Angle=50
+17:07:12 INFO   	"/Nitrides/Si3N4_MLD": type=Basic, Etch Ratio=0.25, Lateral Ratio=0.02
+17:07:12 INFO   	"/Nitrides/Si3N4_NBLoK": type=Basic, Etch Ratio=0.25, Lateral Ratio=0.02
+17:07:12 INFO   	"/Nitrides/Si3N4_PECVD": type=Basic, Etch Ratio=0.25, Lateral Ratio=0.02
+17:07:12 INFO   	"/Oxides/HfOx": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   	"/Oxides/SiO2_HDP": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   	"/Oxides/SiO2_HTO": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   	"/Oxides/SiO2_LTO": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   	"/Oxides/SiO2_PECVD": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   	"/Oxides/SiO2_SiCOH": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   	"/Oxides/SiO2_TEOS": type=Sputter, Etch Ratio=0.7, Lateral Ratio=0.02, Sputter Ratio=0.66, MaxYield Angle=50
+17:07:12 INFO   Etching has no tilt or twist, and no rotation.
+17:07:12 INFO   MultiEtch: initializing ...
+17:07:14 INFO   MultiEtch 0.0% complete.
+17:07:17 INFO   MultiEtch 11.2% complete.
+17:07:20 INFO   MultiEtch 22.1% complete.
+17:07:23 INFO   MultiEtch 33.3% complete.
+17:07:26 INFO   MultiEtch 44.6% complete.
+17:07:29 INFO   MultiEtch 55.8% complete.
+17:07:32 INFO   MultiEtch 66.7% complete.
+17:07:35 INFO   MultiEtch 77.6% complete.
+17:07:38 INFO   MultiEtch 88.6% complete.
+17:07:41 INFO   MultiEtch 99.6% complete.
+17:07:43 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:43 INFO : 4.3.10.5:	Running Etch ("NBLoK Etch")
+17:07:44 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:44 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:44 INFO : 4.3.11:	Sequence ("M2V1 Fill")
+17:07:44 INFO : 4.3.11.1:	Running Deposit ("Barrier Ta Deposition - VizDep")
+17:07:44 INFO   Visibility Deposit: depositing material "/Metals/Ta" to depth 3 nm on wafer Top with source sigma 0.5, isotropic ratio 0.5, lateral ratio 1, tilt/twist angles = 0/0.
+17:07:44 INFO   Visibility Deposit: initializing ....
+17:07:46 INFO   Visibility Deposit 0.0% complete.
+17:07:48 INFO   Visibility Deposit 14.4% complete.
+17:07:48 INFO   Visibility Deposit 28.8% complete.
+17:07:49 INFO   Visibility Deposit 43.3% complete.
+17:07:51 INFO   Visibility Deposit 57.7% complete.
+17:07:51 INFO   Visibility Deposit 72.1% complete.
+17:07:51 INFO   Visibility Deposit 86.5% complete.
+17:07:52 INFO   Visibility Deposit 100.0% complete.
+17:07:53 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:07:53 INFO : 4.3.11.2:	Running Deposit ("Liner TaN Deposition - VizDep")
+17:07:53 INFO   Visibility Deposit: depositing material "/Metals/TaN" to depth 5 nm on wafer Top with source sigma 1, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:07:53 INFO   Visibility Deposit: initializing ....
+17:07:55 INFO   Visibility Deposit 0.0% complete.
+17:07:57 INFO   Visibility Deposit 13.2% complete.
+17:07:58 INFO   Visibility Deposit 26.5% complete.
+17:08:00 INFO   Visibility Deposit 39.7% complete.
+17:08:00 INFO   Visibility Deposit 53.0% complete.
+17:08:02 INFO   Visibility Deposit 66.2% complete.
+17:08:03 INFO   Visibility Deposit 79.5% complete.
+17:08:04 INFO   Visibility Deposit 92.7% complete.
+17:08:06 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:08:06 INFO : 4.3.11.3:	Running Deposit ("Cu Seed Deposition - VizDep")
+17:08:06 INFO   Visibility Deposit: depositing material "/Metals/Cu" to depth 5 nm on wafer Top with source sigma 1, isotropic ratio 0.3, lateral ratio 1, tilt/twist angles = 0/0.
+17:08:06 INFO   Visibility Deposit: initializing ....
+17:08:09 INFO   Visibility Deposit 0.0% complete.
+17:08:11 INFO   Visibility Deposit 13.3% complete.
+17:08:11 INFO   Visibility Deposit 26.5% complete.
+17:08:13 INFO   Visibility Deposit 39.8% complete.
+17:08:14 INFO   Visibility Deposit 53.1% complete.
+17:08:16 INFO   Visibility Deposit 66.4% complete.
+17:08:17 INFO   Visibility Deposit 79.7% complete.
+17:08:17 INFO   Visibility Deposit 93.0% complete.
+17:08:20 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:08:20 INFO : 4.3.11.4:	Running Growth ("Cu Electroplate")
+17:08:23 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:08:23 INFO : 4.3.11.5:	Running Polish ("Cu CMP")
+17:08:25 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:08:25 INFO : A-1:	Running Analysis step Measurement ('Measurement (Requires Automation)') after process step '4.3.11.5';
+----------------------------------------------------------------------
+Calculating Conformal exposed surface area for (/Nitrides/Si3N4_NBLoK, /Nitrides/Si3N4_LPCVD, /Nitrides/Si3N4_MLD, /Nitrides/Si3N4_PECVD, /Oxides/HfOx, /Oxides/SiO2_HDP, /Oxides/SiO2_HTO, /Oxides/SiO2_LTO, /Oxides/SiO2_PECVD, /Oxides/SiO2_SiCOH, /Oxides/SiO2_TEOS, /Oxides/SiO2_Thermal, /Silicon/SiARC, /Silicon/SiC, /Silicon/SiGe, /Silicon/Si_Amorph, /Silicon/Si_Xtal) on both sides..
+
+Conformal surface area by material:
+    /Nitrides/Si3N4_LPCVD :      -
+    /Nitrides/Si3N4_MLD :      -
+    /Nitrides/Si3N4_NBLoK :      -
+    /Nitrides/Si3N4_PECVD :      -
+    /Oxides/HfOx :      -
+    /Oxides/SiO2_HDP :      -
+    /Oxides/SiO2_HTO :      -
+    /Oxides/SiO2_LTO :  1.493300e+04 nm^2	( +5.5 % potential error)
+    /Oxides/SiO2_PECVD :      -
+    /Oxides/SiO2_SiCOH :      -
+    /Oxides/SiO2_TEOS :      -
+    /Oxides/SiO2_Thermal :      -
+    /Silicon/SiARC :      -
+    /Silicon/SiC :      -
+    /Silicon/SiGe :      -
+    /Silicon/Si_Amorph :      -
+    /Silicon/Si_Xtal :      -
+
+
+Error estimate(s) shown above are rough estimates of inaccuracy that may be present in the surface area values.
+Very thin layers may result in unreliable error estimates.
+Refining the model by using a smaller model resolution will increase the accuracy of the surface area calculation.
+
+17:09:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:09:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:09:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:09:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:09:03 INFO   Saving assembly file "F:\Sram\FinFET.zam".
+17:09:03 INFO : Build process completed.
+17:09:03 INFO : Elapsed Time 633 seconds.
+Build log file moved to : F:/Sram/FinFET-Output/FinFET.log
