@@ -1,0 +1,96 @@
+# =============================================================
+# Coventor SEMulator3D — Generated / Simulation Output Files
+# =============================================================
+
+# SEMulator3D assembly (voxel model) — large binary, not for VCS
+*.zam
+
+# SEMulator3D voxel step output files — very large (~100+ MB total)
+*.vwaf
+
+# SEMulator3D log files generated during build (kept in results/logs/)
+__semu_*.log
+
+# =============================================================
+# EDA / VLSI Tool Generated Files
+# =============================================================
+
+# Simulation run directories
+sim_run/
+run_*/
+
+# Calibre DRC/LVS output
+*.rul.results
+*.errors
+*.erc.results
+calibre.log
+
+# KLayout backup / autosave
+*.lym.bak
+*.lyp.bak
+*.gds.bak
+
+# =============================================================
+# Python
+# =============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# =============================================================
+# OS / IDE Metadata
+# =============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# =============================================================
+# Temporary / Misc
+# =============================================================
+
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.log.old
+
+# =============================================================
+# Secrets / Credentials (should never be committed)
+# =============================================================
+
+.env
+*.key
+*.pem
+secrets.json
+credentials.json
